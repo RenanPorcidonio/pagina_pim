@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #158A8A;
+    height: 52px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menuBtn {
+    height: 32px;
+}
+header h2 {
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .search input{
+height: 20px;
+border-radius: 6px 0px 0px 6px;
+border: 0;
+padding: 5px;
+}
+header .search span {
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 0px 6px 6px 0px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.search span img {
+    width: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+}
+
+/* fim do cabeçalho */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .products {
+    margin-top: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+main .card {
+    width: 22%;
+    padding: 10px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.card .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card h3 {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.card p {
+    font-family: "poppins", sans-serif;
+}
+.card p:last-child {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+}
+
+.card .rating {
+    width: 50%;
+}
+.like {
+    height: 30px;
+}
